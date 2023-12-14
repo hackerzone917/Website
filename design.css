@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width: 22vw;
+    height: 49.6vw;
+    background-color:#040b14;
+    position: sticky;
+}
+
+.back_dp{
+    left: 6.5vw;
+    background-color: #343a40;
+    height: 9vw;
+    width: 9vw;
+    position: relative;
+    top: 2vw;
+    border-radius: 10vw;
+
+}
+
+
+.dpimg{
+    height: 8vw;
+    width:8vw;
+    border-radius: 10vw;
+    position: relative;
+    top:0.5vw;
+    left:0.5vw;
+}
+ .header_name{
+    height: 2.5vw;
+    width: 15vw;
+    position: relative;
+    top: 3.5vw;
+    left: 5vw;
+    color: white;
+    font-size: 2vw;
+    
+ }
+  .socialmedia{
+    background-color: #343a40;
+    height: 2.5vw;
+    width: 2.5vw;
+    position: relative;
+    top:5vw;
+    border-radius: 3vw;
+    left:5vw;
+    display: inline-block;
+    margin-left:0.5vw;
+
+    
+  }
+ .social a{
+   text-decoration: none;
+   margin-left:0.5vw;
+
+ }
+
+ .socialicons{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    /* align-items: center; */
+    margin-left: 0.3vw;
+    margin-top: 0.2vw;
+ }
+
+ .navmenu{
+    background-color: #040b14;
+    height: 23vw;
+    width: 17vw;
+    position: relative;
+    top: 8vw;
+    left: 2vw;
+    margin-left: 0.5vw
+    
+ }
+
+ .navmenu li{
+    display: block;
+    text-align: left;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    padding-left: 4.5vw;
+    color: white;
+ }
+
+ .copyright{
+        /* background-color: blue; */
+        height: 4vw;
+        width: 17vw;
+        position: relative;
+        top: 8.5vw;
+        left: 2.5vw;
+        font-size: 1.3vw;
+        color: white;
+ }
+ .main{
+    background-image:url("Materials/mainbg.jpeg");
+    background-size: cover;
+    height: 49.6vw;
+    width: 78vw;
+    position: absolute;
+    left: 22vw;
+    top: 0vw;
+ }
+  .maintext{
+    height: 7vw;
+    width: 35vw;
+    position: relative;
+    top: 25vw;
+    left: 40vw;
+    font-size: 5vw;
+    color: white;
+    
+
+  }
+  .maintext p{
+    font-size: 2vw;
+  }
