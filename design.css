@@ -4,7 +4,7 @@
 }
 .header{
     width: 22vw;
-    height: 49.6vw;
+    height: 100vh;
     background-color:#040b14;
     position: sticky;
 }
@@ -12,17 +12,17 @@
 .back_dp{
     left: 6.5vw;
     background-color: #343a40;
-    height: 9vw;
+    height: 18vh;
     width: 9vw;
     position: relative;
-    top: 2vw;
+    top: 4vh;
     border-radius: 10vw;
 
 }
 
 
 .dpimg{
-    height: 8vw;
+    height: 16vh;
     width:8vw;
     border-radius: 10vw;
     position: relative;
@@ -30,8 +30,8 @@
     left:0.5vw;
 }
  .header_name{
-    height: 2.5vw;
-    width: 15vw;
+    height: 5vh;
+    width: 25vw;
     position: relative;
     top: 3.5vw;
     left: 5vw;
@@ -41,7 +41,7 @@
  }
   .socialmedia{
     background-color: #343a40;
-    height: 2.5vw;
+    height: 5vh;
     width: 2.5vw;
     position: relative;
     top:5vw;
@@ -52,6 +52,17 @@
 
     
   }
+
+  .fb:hover{
+   background-color:#3b5998;
+   }
+  .insta:hover{
+   background-image:url("Materials/instaback.jpg");
+   background-size: cover;
+   }
+   .git:hover{
+      background-color: black;
+   }
  .social a{
    text-decoration: none;
    margin-left:0.5vw;
@@ -59,58 +70,83 @@
  }
 
  .socialicons{
-    height: 80%;
-    width: 80%;
-    position: relative;
-    /* align-items: center; */
-    margin-left: 0.3vw;
-    margin-top: 0.2vw;
+   height: 70%;
+   width: 70%;
+   position: relative;
+   margin-left: 0.4vw;
+   margin-top: 0.8vh;
+
  }
+ 
 
  .navmenu{
     background-color: #040b14;
-    height: 23vw;
+    height: 23vh;
     width: 17vw;
     position: relative;
-    top: 8vw;
+    top: 13vh;
     left: 2vw;
     margin-left: 0.5vw
     
  }
 
  .navmenu li{
-    display: block;
-    text-align: left;
-    padding: 1.5vw;
-    font-size: 1.5vw;
-    padding-left: 4.5vw;
-    color: white;
+   display: block;
+   text-align: left;
+   padding: 1.5vw;
+   font-size: 1.5vw;
+   padding-left: 0.5vw;
+   color:  #aab2b9;
+ }
+ .navmenu a{
+   text-decoration: none;
+ }
+ .navmenu li:hover{
+    color:white;
+    cursor: pointer;
+    
+ }
+ .navmenu li:active{
+   color:white;
+ }
+
+ .navmenu ul li img{
+   width: 20%;
+   top: 2vh;
+   position: relative;
+   background-color: #343a40;
+   border-radius: 1vw;
+   margin-right:1vw;
+ }
+ .navmenu ul li img:hover{
+   background-color: rgb(206, 236, 236);
  }
 
  .copyright{
-        /* background-color: blue; */
-        height: 4vw;
-        width: 17vw;
-        position: relative;
-        top: 8.5vw;
-        left: 2.5vw;
-        font-size: 1.3vw;
-        color: white;
+            
+    height: 8vh;
+    width: 17vw;
+    position: relative;
+    top: 21.5vw;
+    left: 3.5vw;
+    font-size: 1vw;
+    color: white;
+    opacity: 0.4;
  }
  .main{
     background-image:url("Materials/mainbg.jpeg");
     background-size: cover;
-    height: 49.6vw;
+    height: 100vh;
     width: 78vw;
     position: absolute;
     left: 22vw;
     top: 0vw;
  }
   .maintext{
-    height: 7vw;
+    height: 14vh;
     width: 35vw;
     position: relative;
-    top: 25vw;
+    top: 50vh;
     left: 40vw;
     font-size: 5vw;
     color: white;
@@ -120,3 +156,4 @@
   .maintext p{
     font-size: 2vw;
   }
+  
