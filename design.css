@@ -157,3 +157,119 @@
     font-size: 2vw;
   }
   
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:600px){
+    .header{
+      width: 100%;
+      height: 22vh;
+     
+  }
+  .back_dp{
+    left: 6.5vw;
+    height: 14vh;
+    width: 30vw;
+    top: 4vh;
+    border-radius: 30vw;
+
+}
+.dpimg{
+  height: 14vh;
+  width: 29vw;
+  border-radius: 20vw;
+  top: 0.5vw;
+  left: 0.5vw
+}
+
+.header_name{
+  height: 5vh;
+  width: 25vw;
+  top: 12vw;
+  left: 10vw;
+  font-size: 3.5vw;
+  
+}
+    
+.socialmedia{
+  height: 2.5vh;
+  width: 5vw;
+  top: -28vw;
+  border-radius: 5vw;
+  left: 45vw;
+  display: -webkit-box;
+  margin-left: -5px;
+  margin: 1vw;
+  margin-left: -6vw;
+
+  
+}
+.socialicons{
+
+  margin-left: 0.8vw;
+  margin-top: 0.4vh
+
+}
+
+
+.navmenu{
+  height: 6vh;
+  width: 53vw;
+  top: 5vh;
+  left: 47vw;
+  margin-left: 0.5vw;
+  position: absolute;
+  
+}
+.main{
+  background-image: url(Materials/mainbg_mobile.jpeg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  left: 0vw;
+  top: 0vw;
+  background-repeat: no-repeat;
+  height: 79vh;
+}
+
+.maintext{
+  height: 14vh;
+    width: 65vw;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+    font-size: 9vw;
+  
+
+}
+.maintext p{
+  font-size: 6vw;
+}
+  
+.navmenu li{
+  display: inline;
+  font-size: 2.4vw;
+ 
+}
+.navmenu ul li img{
+  width: 11%;
+}
+   
+.copyright{
+            
+  height: 5vh;
+  width: 30vw;
+  top: 39.5vw;
+  left: 50.5vw;
+  font-size: 3vw;
+  position: absolute;
+}
+  
+  } 
